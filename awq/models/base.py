@@ -78,6 +78,8 @@ TRANSFORMERS_AUTO_MAPPING_DICT = {
     "gemma": "AutoModelForCausalLM",
     "stablelm": "AutoModelForCausalLM",
     "starcoder2": "AutoModelForCausalLM",
+    "phi":"AutoModelForCausalLM",
+    "phi2":"AutoModelForCausalLM",
     "phi3": "AutoModelForCausalLM",
     "cohere": "AutoModelForCausalLM",
 }
