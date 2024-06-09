@@ -37,7 +37,7 @@ class PhiAWQForCausalLM(BaseAWQForCausalLM):
     def get_layers_for_scaling(module: OldPhiDecoderLayer, input_feat, module_kwargs):
         layers = []
 
-        #Attention :
+        #Attention:
 
         # attention input
         layers.append(
@@ -85,6 +85,6 @@ class PhiAWQForCausalLM(BaseAWQForCausalLM):
                 inp=input_feat["mlp.fc2"],
             )
         )
-        
+
         return layers
 
