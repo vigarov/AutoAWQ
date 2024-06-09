@@ -35,7 +35,7 @@ class PhiAWQForCausalLM(BaseAWQForCausalLM):
 
     @staticmethod
     def get_layers_for_scaling(module: OldPhiDecoderLayer, input_feat, module_kwargs):
-        layers = []
+        layers = [] 
 
         #Attention:
 
